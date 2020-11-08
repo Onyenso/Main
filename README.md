@@ -10,7 +10,7 @@ YensoGram is basically a blog web application that allows a user to make posts a
 A new user signs up for an account with an email, username and password. When signed up, the user logs in using his/her details. Intially, the user
 has no friends and thus no posts to be seen. The application allows the user to find other users and add them as friends. When the user makes a post,
 it will be visible to other users who are friends with him/her and vice versa. The user can also send messages to other users
-who are friends with him. YensoGram also allows the abilty to update and delete posts made by the user.
+who are friends with him. YensoGram also allows the abilty to update and delete posts or chats made by the user.
 
 A video of this application in action is at:
 - https://youtu.be/6YzcJwd6vOk for desktop view
