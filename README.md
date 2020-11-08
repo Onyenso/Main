@@ -1,6 +1,6 @@
 # Final Project
 
-My default branch is my best work so far lives on. It was created as result of a requirement to complete Harvard University's CS50 course.
+My default branch is where my best work so far lives on. It was created as result of a requirement to complete Harvard University's CS50 course.
 Other branches hold my other projects.
 
 
