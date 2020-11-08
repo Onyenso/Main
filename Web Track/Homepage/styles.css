@@ -1,0 +1,55 @@
+.hero-image
+{
+    background-image: url("IMG_20200617_112141_795.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: 50px 0px 50px 0px;
+  }
+
+.hero-text
+{
+    text-align: center;
+    padding-top: 220px;
+}
+
+/*for xs*/
+.hero-image-xs
+{
+    background-image: url("IMG_20200617_112141_795.jpg");
+    background-color: #cccccc;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+  }
+
+  /*for xs*/
+.hero-text-xs
+{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+
+}
+
+.story
+{
+  font-size: large;
+}
+
+
+footer
+{
+  height: 70px;
+  color: black;
+  font-size: 13px;
+  font-family: cursive;
+  background-color: beige;
+  text-align: center;
+  margin-top: 10px;
+}
