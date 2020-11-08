@@ -12,8 +12,8 @@ has no friends and thus no posts to be seen. The application allows the user to 
 it will be visible to other users who are friends with him/her and vice versa. The user can also send messages to other users
 who are friends with him. YensoGram also allows the abilty to update and delete posts or chats made by the user.
 
-If you're familiar with Flask, [application.py]('Final Project/application.py') is where the backend source code lives on. The fronted html files are in
-[templates]('Final Project/templates') folder. [finance.db]('Final Project/finance.db) is a sqlite database for the application.
+If you're familiar with Flask, [application.py](Final Project/application.py) is where the backend source code lives on. The fronted html files are in
+[templates](Final Project/templates) folder. [finance.db](Final Project/finance.db) is a sqlite database for the application.
 
 A video of this application in action is at:
 - https://youtu.be/6YzcJwd6vOk for desktop view
