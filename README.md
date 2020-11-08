@@ -13,7 +13,7 @@ it will be visible to other users who are friends with him/her and vice versa. T
 who are friends with him. YensoGram also allows the abilty to update and delete posts or chats made by the user.
 
 If you're familiar with Flask, [application.py](Final%20Project/application.py) is where the backend source code lives on. The fronted html files are in
-[templates](Final%20Project/templates) folder. [finance.db](Final%20Project/finance.db) is a sqlite database for the application.
+[templates](Final%20Project/templates) folder and [finance.db](Final%20Project/finance.db) is a sqlite database for the application.
 
 A video of this application in action is at:
 - https://youtu.be/6YzcJwd6vOk for desktop view
