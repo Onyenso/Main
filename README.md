@@ -14,5 +14,5 @@ who are friends with him. YensoGram also allows the abilty to update and delete 
 
 ### Creator
 
-**Onyenso Uchenna**
-- https://twitter.com/mdo
+**Onyenso Uchenna J.**
+- https://twitter.com/Yensodev
