@@ -7,8 +7,8 @@ in due time.
 
 ##### Table of Contents
 
-- [Filter](/#filter)
-- [Recover](/#recover)
+- [Filter](/cs50-projects#filter)
+- [Recover](/cs50-projects#recover)
 
 ### Filter
 [Filter](/Filter) is a program that applies a filter of the user's choice to an image. It is built completely with C.
