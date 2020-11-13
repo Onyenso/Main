@@ -7,19 +7,19 @@ in due time.
 
 ##### Table of Contents
 
-- Filter
-- Recover
+- [Filter](/#filter)
+- [Recover](/#recover)
 
 ### Filter
 [Filter](/Filter) is a program that applies a filter of the user's choice to an image. It is built completely with C.
 
-###### Project Description
+#### Project Description
 
 This project implements 4 filters namely: grayscale, sepia, reflect and blur. You can think of filtering an image as taking the pixels of some original image, and modifying each pixel in such a way that a particular effect is apparent in the resulting image.
 
 The main file where each filter function (grayscale, sepia, reflect and blur) is implemented is [helpers.c](/Filter/helpers.c). [filter.c](/Filter/filter.c) describes the logic behind accepting command-line arguements, reading an image into memory, outputting the filtered image, among other things. The [images](/Filter/images) folder holds some sample images. [bmp.h](/Filter/bmp.h) defines some necessary data types needed for the program. [helpers.h](/Filter/helpers.h) just provides the function prototypes for the filter function and [Makefile](/Filter/Makefile) tells the compiler how to compile this program. [Makefile](/Filter/Makefile) is necessary because this program uses multiple files to run correctly.
 
-##### Usage
+#### Usage
 
 - Compile [Filter](/Filter) by ruuning:
 ```
@@ -30,7 +30,8 @@ $ make filter
 ```
 $  ./filter -g images/yard.bmp out.bmp
 ```
-which takes the image at images/yard.bmp, and generates a new image called out.bmp after running the pixels through the grayscale function (represented by `-g`).
+which takes the image at `images/yard.bmp`, and generates a new image called `out.bmp` after running the pixels through the grayscale function (represented by `-g`).
+For the other filters, substitute `-s`, `-r` and `-b` for sepia, reflect and blur respectively.
 
 
 
