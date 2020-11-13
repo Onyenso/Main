@@ -11,7 +11,7 @@ in due time.**
 - [Recover](#recover)
 
 ### Filter
-[Filter](/Filter) is a program that applies a filter of the user's choice to an image. It is built completely with C.
+[Filter](/Filter) is a program that applies filters to BMP images. It is built completely with C.
 
 #### Project Description
 
@@ -33,6 +33,28 @@ $  ./filter -g images/yard.bmp out.bmp
 which takes the image at `images/yard.bmp`, and generates a new image called `out.bmp` after running the pixels through the grayscale function (represented by `-g`).
 For the other filters, substitute in `-s`, `-r` or `-b` for sepia, reflect and blur respectively.
 
+
+
+
+### Recover
+[Recover](/Recover) is a program that recovers deleted JPEGs from a forensic image (a copy of a memory card). It is also built completely with C.
+
+#### Project Description
+
+The program itrates over a foresic image looking for JPEG signatures. Whenever a signiature is encountered, the JPEG file is outputted. [card.raw](/Recover/card.raw) is the forensic image (a copy of a memory card) that is to be iterated. [recover.c](/Recover/recover.c) is the main source code that handles command-line arguements and reading files into memory.
+
+#### Usage
+
+- Compile [Recover](/Recover) by ruuning:
+```
+$ make recover
+```
+
+- Then, you can run the program by running:
+```
+$  ./recover card.raw
+```
+where `card.raw` is any forensic image you wish to iterate over.
 
 
 
