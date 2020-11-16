@@ -23,13 +23,13 @@ $  ./caesar key
 ```
 where `key` is a non-negative integer with which to encrpyt your message.
 
-Next you'll be prompted for a `plaintext`:
+- Next, you'll be prompted for a `plaintext`:
 
 ```
 ./caesar key
 plaintext:  HELLO
 ```
-And the result will be an encrypted version of your message, a `ciphertext`:
+- And the result will be an encrypted version of your message, a `ciphertext`:
 
 ```
 ./caesar key
@@ -64,12 +64,12 @@ $ make readability
 ```
 $  ./readabilty
 ```
-You will be promted for a text:
+- You will be promted for a text:
 ```
 $ ./readability
 Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
 ```
-The appropriate grade for the text will be shown as such:
+- The appropriate grade for the text will be shown as such:
 ```
 $ ./readability
 Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
