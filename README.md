@@ -8,7 +8,7 @@
 
 #### Project Description
 
-This project implements a message encryption. It accepts a user's key and a plaintext to that will be encrypted using the key.
+This project implements a message encryption. It accepts a user's key and a plaintext that will be encrypted using the key.
 
 #### Usage
 
@@ -23,7 +23,7 @@ $  ./caesar key
 ```
 where `key` is a non-negative integer with which to encrpyt your message.
 
-<p>Next you'll be prompted for a `plaintext`:</p>
+<a href="/google">Next you'll be prompted for a `plaintext`:</a>
 
 ```
 ./caesar key
