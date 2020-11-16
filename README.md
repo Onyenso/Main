@@ -23,7 +23,7 @@ $  ./caesar key
 ```
 where `key` is a non-negative integer with which to encrpyt your message.
 
-<a href="/google">Next you'll be prompted for a `plaintext`:</a>
+Next you'll be prompted for a `plaintext`:
 
 ```
 ./caesar key
@@ -39,22 +39,43 @@ ciphertext: URYYB
 
 
 
-### Recover
-[Recover](/Recover) is a program that recovers deleted JPEGs from a forensic image (a copy of a memory card). It is also built completely with C.
+### Readability
+[Readability](/readability.c) is a program that computes the approximate grade level needed to comprehend some text. It is also built completely with C.
 
 #### Project Description
 
-The program itrates over a foresic image looking for JPEG signatures. Whenever a signiature is encountered, the JPEG file is outputted. [card.raw](/Recover/card.raw) is the forensic image (a copy of a memory card) that is to be iterated. [recover.c](/Recover/recover.c) is the main source code that handles command-line arguements and reading files into memory.
+The program uses the [Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) to determine the grade for which a text is most appropriate. The
+formula for the Coleman-Liau index is:
+```
+index = 0.0588 * L - 0.296 * S - 15.8
+```
+where, L is the average number of letters per 100 words in the text, and S is the average number of sentences per 100 words in the text.
+
+This program, readability, takes a text and determines its reading level.
 
 #### Usage
 
-- Compile [Recover](/Recover) by ruuning:
+- Compile [Readability](/readability.c) by ruuning:
 ```
-$ make recover
+$ make readability
 ```
 
 - Then, you can run the program by running:
 ```
-$  ./recover card.raw
+$  ./readabilty
 ```
-where `card.raw` is any forensic image you wish to iterate over.
+You will be promted for a text:
+```
+$ ./readability
+Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+```
+The appropriate grade for the text will be shown as such:
+```
+$ ./readability
+Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+Grade 3
+```
+
+
+
+
